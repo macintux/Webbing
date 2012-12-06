@@ -9,5 +9,5 @@ Beginnings of Erlang code for doing webbot-like stuff.
 This depends on the trane SAX HTML parser, with a minor modification
 of my own to allow `wget` to be invoked externally.
 
-* [https://github.com/macintux/trane](https://github.com/macintux/trane)
-* [https://github.com/massemanet/trane](https://github.com/massemanet/trane)
+* https://github.com/macintux/trane
+* https://github.com/massemanet/trane
