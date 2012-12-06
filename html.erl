@@ -84,5 +84,4 @@ normalize_string(undefined) ->
     "";
 normalize_string(String) ->
     %% Kindly enough, re:replace seems to handle a list of strings as though it were just one string
-    re:replace(re:replace(String, "\\s+", " ", [global,{return,list}]),
-               "^ | $", "", [global,{return,list}]).
+    string:strip(re:replace(String, "\\s+", " ", [global,{return,list}])).
